@@ -2,7 +2,7 @@
 
 describe("BJSS Testing App 2", () => {
 
-    it("Confirm that the blue, red, and green button ids", () => {
+    it("Confirm that the 'Hello World' text appears after loading", () => {
 
         cy.visit("https://the-internet.herokuapp.com/");
         cy.contains('Dynamic Loading').click();
